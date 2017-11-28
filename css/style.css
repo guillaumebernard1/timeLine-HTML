@@ -302,11 +302,14 @@ Main Components
   font-family: "Playfair Display", serif;
   font-weight: 700;
   line-height: 1.2;
+  color: #A10000;
 }
 .cd-horizontal-timeline .events-content em {
   display: block;
   font-style: italic;
   margin: 10px auto;
+  color: #1153D7;
+
 }
 .cd-horizontal-timeline .events-content em::before {
   content: '- ';
@@ -317,7 +320,7 @@ Main Components
 }
 .cd-horizontal-timeline .events-content em, .cd-horizontal-timeline .events-content p {
   line-height: 1.6;
-}
+} 
 @media only screen and (min-width: 768px) {
   .cd-horizontal-timeline .events-content h2 {
     font-size: 7rem;
